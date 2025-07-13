@@ -12,7 +12,13 @@ SP1 is the fastest, most-feature complete zero-knowledge virtual machine (zkVM) 
 ## Getting Started 
 
 Today, developers can write programs, including complex, large programs like a ZK Tendermint light client or type-1 zkEVM using Reth, in Rust (with std support), generate proofs and verify them. Most Rust crates should be supported and can be used seamlessly by your program. Example programs can be found in the [examples](https://github.com/succinctlabs/sp1/tree/main/examples) folder.
+## 🟢 How to run examples locally
 
+After building, you can run an example to test everything is working:
+
+```bash
+cargo build --release
+cargo run --example simple_demo
 To get started, make sure you have [Rust](https://www.rust-lang.org/tools/install) installed. Then follow the [installation](https://docs.succinct.xyz/docs/sp1/getting-started/install) guide in the SP1 book and read the [getting started](https://docs.succinct.xyz/docs/sp1/getting-started/quickstart) section.
 
 ## Security
